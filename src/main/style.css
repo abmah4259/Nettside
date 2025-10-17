@@ -1,0 +1,50 @@
+/* nettsiden sin stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 20px;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.site-header h1 {
+    color: #2a6f97;
+    margin-bottom: 10px;
+}
+
+.site-header .lead {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Seksjoner */
+.container {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Kort for detaljer om spisesteder */
+.card {
+    padding: 10px 0;
+}
+
+/* Bilder */
+.images {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.images img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
